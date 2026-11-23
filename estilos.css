@@ -1,0 +1,14 @@
+body { background: #f4f4f5; color: #212529; min-height: 100vh; display: flex; flex-direction: column; }
+.navbar-marvel { background: #151515; border-bottom: 4px solid #ed1d24; }
+.navbar-marvel .navbar-brand { color: #fff; }
+.navbar-marvel .nav-link:hover { color: #fff; }
+.badge-marvel { background: #b9141b; color: white; }
+.badge-dorado { background: #f2c94c; color: #171717; }
+.btn-marvel { --bs-btn-color: #fff; --bs-btn-bg: #b9141b; --bs-btn-border-color: #b9141b; --bs-btn-hover-color: #fff; --bs-btn-hover-bg: #921017; --bs-btn-hover-border-color: #921017; --bs-btn-active-color: #fff; --bs-btn-active-bg: #780d12; --bs-btn-active-border-color: #780d12; }
+.card-marvel { border: 1px solid #dedede; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 14px rgba(0,0,0,.08); }
+.card-marvel .card-img-top { height: 280px; object-fit: cover; }
+#carruselMarvel .carousel-item img { height: clamp(250px, 48vw, 580px); object-fit: cover; }
+.carousel-caption-marvel { background: rgba(0,0,0,.72); border-radius: 10px; padding: 14px; }
+.footer-marvel { background: #151515; border-top: 4px solid #ed1d24; margin-top: auto !important; }
+.footer-marvel .text-secondary { color: #bcbcbc !important; }
+@media (max-width: 576px) { .navbar-brand { font-size: 1rem; } .carousel-caption-marvel { left: 10%; right: 10%; bottom: 24px; padding: 8px; } .carousel-caption-marvel h5 { font-size: 1rem; } .carousel-caption-marvel p { font-size: .75rem; } }
